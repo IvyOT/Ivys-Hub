@@ -1,0 +1,53 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("discord library")
+
+local serv = win:Server("Scripts", "")
+
+local Keyless = serv:Channel("Keyless")
+
+local Key = serv:Channel("Key")
+
+if game.GameId==5750914919 then
+-- Keyless
+    Keyless:Button("Aethrix Hub", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Imrane43/fisch-Script/refs/heads/main/Fisch%20Script",true))()
+end) 
+    Keyless:Button("Speedx Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+    end) 
+    Keyless:Button("Kill all", function()
+        DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+        end) 
+        -- Key
+    Game:Button("Kill all", function()
+    DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+    end) 
+    Game:Button("Kill all", function()
+     DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+    end) 
+    Game:Button("Kill all", function()
+    DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+    end) 
+
+elseif game.GameId==994732206 then
+    -- Keyless
+    Keyless:Button("Aethrix Hub", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Imrane43/fisch-Script/refs/heads/main/Fisch%20Script",true))()
+end) 
+    Keyless:Button("Speedx Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))() 
+    end) 
+    Keyless:Button("Kill all", function()
+        DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+        end) 
+        -- Key
+    Game:Button("Kill all", function()
+    DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+    end) 
+    Game:Button("Kill all", function()
+     DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+    end) 
+    Game:Button("Kill all", function()
+    DiscordLib:Notification("Notification", "Killed everyone!", "Okay!")
+    end) 
